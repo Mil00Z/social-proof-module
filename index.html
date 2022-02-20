@@ -15,9 +15,10 @@
 
     <title>Frontend Mentor | Social proof section</title>
   </head>
+
   <body>
 
-   <div class="wrapper">
+   <main class="wrapper">
 
     <!-- TOP CONTENT -->
     <header class="header">
@@ -38,11 +39,11 @@
 
       </section>
 
-      <section id="ratings">
+      <block id="ratings">
 
-        <ul class="list-rating">
+        <ul class="list-rating" role="list">
           
-          <li class="rating--desc">
+          <li class="rating--desc" role="listitem">
 
             <div class="list-rating--stars">
               <img src="./assets/img/icon-star.svg" alt="une icone d'étoile" class="rating--star">
@@ -54,17 +55,20 @@
             Rated 5 Stars in Reviews
           </li>
 
-          <li class="rating--desc">
+          <li class="rating--desc" role="listitem">
             <div class="list-rating--stars">
+
               <img src="./assets/img/icon-star.svg" alt="une icone d'étoile" class="rating--star">
               <img src="./assets/img/icon-star.svg" alt="une icone d'étoile" class="rating--star">
               <img src="./assets/img/icon-star.svg" alt="une icone d'étoile" class="rating--star">
               <img src="./assets/img/icon-star.svg" alt="une icone d'étoile" class="rating--star">
               <img src="./assets/img/icon-star.svg" alt="une icone d'étoile" class="rating--star">
+
             </div>
             Rated 5 Stars in Report Guru
           </li>
-          <li class="rating--desc">
+          
+          <li class="rating--desc" role="listitem">
 
             <div class="list-rating--stars">
 
@@ -79,13 +83,14 @@
           </li>
         </ul>
 
-      </section> 
+      </block> 
 
     </header>
 
       <!-- LIST OF TESTIMONIALS -->
-      <section id="cards">
-        <div class="card">
+      <row id="cards">
+
+        <card class="card">
             <div class="card-top-content">
               <img src="./assets/img/image-colton.jpg" alt="" class="buyer-thumbnail">
               <div class="card-buyer--info">
@@ -96,9 +101,9 @@
             <p class="card-buyer--testi">
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum accusamus libero omnis ut iusto possimus velit officiis, perferendis voluptatum ipsum nam?"
             </p>
-        </div>
+          </card>
 
-        <div class="card">
+        <card class="card">
             <div class="card-top-content">
               <img src="./assets/img/image-irene.jpg" alt="" class="buyer-thumbnail">
               <div class="card-buyer--info">
@@ -111,10 +116,10 @@
           Not only did they find the original order, but we also received it in time.
           Excellent!"
             </p>
-        </div>
+          </card>
 
 
-        <div class="card">
+        <card class="card">
             <div class="card-top-content">
               <img src="./assets/img/image-anne.jpg" alt="" class="buyer-thumbnail">
               <div class="card-buyer--info">
@@ -127,20 +132,26 @@
             "Put an order with this company and can only praise them for the very high
       standard. Will definitely use them again and recommend them to everyone!"
           </p>
-        </div>
+        </card>
 
-      </section>
+      </row>
 
       <!-- CREDITS -->
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="http://codepen.io/MilooZ/" title="MilooZ">MilooZ</a>.
+      <footer>
 
-    </div>
+        <h2 class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA" target="_blank"
+            class="challenge">Frontend Mentor</a
+          >. Coded by <a href="http://codepen.io/MilooZ/" title="MilooZ" class="author">MilooZ</a>.
+    
+        </h2>
 
-  </div>
+
+      </footer>
+    
+
+    </main>
 
 </body>
 </html>

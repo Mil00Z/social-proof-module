@@ -227,11 +227,16 @@
     /* responsive Large */
     /* Imported Styles from Exercice */
     .attribution {
-        margin:2rem 0;
+        margin:clamp(25px,5vh,50px) 0;
         font-size: 0.9rem;
         text-align: center;
       }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-        color:crimson;
+      
+
+      .attribution a.challenge{
+          color:var(--darkMagenta);
+        }
+
+      .attribution a.author{
+        color:var(--softPink);
       }
